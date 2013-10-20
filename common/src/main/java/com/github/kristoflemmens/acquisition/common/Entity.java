@@ -25,7 +25,7 @@ public abstract class Entity<ID> {
                 .isEquals();
     }
 
-    public abstract ID id();
+    protected abstract ID id();
 
     @Override
     public String toString() {
